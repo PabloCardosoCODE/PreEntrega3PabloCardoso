@@ -1,0 +1,154 @@
+@import "nosotros.scss";
+@import "servicios.scss";
+@import "contacto.scss";
+
+
+
+/* BARRA DE NAVEGACION  (MAYOR PARTE DEL DISEÑO HECHO EN EL INDEX CON BOOTSTRAP */
+.barraNavegacion{
+    padding: 2px;
+    list-style: none;
+    display: flex;
+
+    .navLink{
+        text-decoration: none;
+        padding: 5px 15px;
+        margin: 10px;
+        color: #007a89;
+        
+        
+    }
+
+}
+
+
+/* Seccion Principal */
+
+
+.seccionHero{
+    background-color: #007a89;
+    height: 700px;
+
+    .columna1{
+        margin-left: 100px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .titulo{
+        font-size: 100px;
+    }
+
+    .subtitulo{
+        font-size: 60px;
+    }
+
+    .parrafoInicio{
+        font-size: 20px;
+    }
+
+}
+/* Nosotros (EN EL INICIO) */
+
+
+.nosotros{
+    background-color: white;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+    .nosotrosContenedor{
+        background-color: white;
+        width: 100%;
+        height: 600px;
+        font-family: 'Roboto', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .tituloDos{
+        color: blue;
+    }
+
+    .parrafoNosotros{
+        color: dimgrey;
+    }
+
+    .botonServicios{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        color: #007a89;
+        transition: all 400ms ease;
+    }
+
+    .bi{
+        font-size: 20px;
+        color: #007a89;
+    }
+
+    .botonServicios{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        color: #007a89;
+        transition: all 400ms ease;
+    }
+    
+    .botonServicios:hover{
+        color: white;
+        background-color: #007a89;
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1237px){
+    #imagenHero{
+        display: none;
+    }
+}
+@media screen and (max-width: 1548px) {
+    #imagenHero{
+        width: 600px;
+        height: 550px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');

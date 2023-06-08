@@ -1,0 +1,49 @@
+/* PÁGINA NOSOTROS */
+
+.contenedorNosotros{
+    background-color: rgb(245, 246, 250);
+    flex-wrap: wrap;
+
+    .tituloNosotros{
+        color: rgba(86, 88, 88, 0.671);
+        font-size: 20px;
+        text-align: center;
+        padding-top: 40px;
+        
+    }
+    .subtituloNosotros{
+        text-align: center;
+    }
+
+    .contenedorFundador{
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+    }
+
+    .contenedorFundador .fundador{
+        font-size: 15px;
+        color: #007a89;
+    }
+}
+
+.contenedorEquipo{
+    background-color: rgb(245, 246, 250);
+    padding-top: 100px;
+    
+    h4{
+        padding-left: 80px;
+        font-size: 15px;
+    }
+
+
+    img{
+        transition: all 400ms ease;
+        
+    }
+
+    img:hover{
+        transform: translateY(-3%)
+    }
+}

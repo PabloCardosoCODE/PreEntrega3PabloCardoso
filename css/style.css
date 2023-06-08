@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* PÁGINA NOSOTROS */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.contenedorNosotros {
+  background-color: rgb(245, 246, 250);
+  flex-wrap: wrap;
+}
+.contenedorNosotros .tituloNosotros {
+  color: rgba(86, 88, 88, 0.671);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+.contenedorNosotros .subtituloNosotros {
+  text-align: center;
+}
+.contenedorNosotros .contenedorFundador {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedorNosotros .contenedorFundador .fundador {
+  font-size: 15px;
+  color: #007a89;
+}
+
+.contenedorEquipo {
+  background-color: rgb(245, 246, 250);
+  padding-top: 100px;
+}
+.contenedorEquipo h4 {
+  padding-left: 80px;
+  font-size: 15px;
+}
+.contenedorEquipo img {
+  transition: all 400ms ease;
+}
+.contenedorEquipo img:hover {
+  transform: translateY(-3%);
+}
+
+/* servicios */
+#servicios {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+.serviciosTitulo {
+  text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.card {
+  width: 400px;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.card .img {
+  width: 100%;
+  height: 210px;
+}
+.card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+.card .contenido p {
+  line-height: 1.5;
+}
+.card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.card .contenido a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  color: #007a89;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.card .contenido a:hover {
+  background: #007a89;
+  color: #fff;
+}
+
+.contenedorAcesoramiento {
+  text-align: center;
+  background-color: rgb(245, 246, 250);
+  width: 100%;
+  height: 150px;
+}
+.contenedorAcesoramiento .botonAcesoramiento {
+  background-color: rgb(245, 246, 250);
+  border-radius: 10px;
+}
+.contenedorAcesoramiento .botonAcesoramiento:hover {
+  background-color: black;
+}
+.contenedorAcesoramiento .botonAcesoramiento a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Contacto */
+.formulario {
+  width: 700px;
+  margin: 100px 500px;
+}
+
+.boton {
+  margin-left: 500px;
+}
+
+/* BARRA DE NAVEGACION  (MAYOR PARTE DEL DISEÑO HECHO EN EL INDEX CON BOOTSTRAP */
+.barraNavegacion {
+  padding: 2px;
+  list-style: none;
+  display: flex;
+}
+.barraNavegacion .navLink {
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 10px;
+  color: #007a89;
+}
+
+/* Seccion Principal */
+.seccionHero {
+  background-color: #007a89;
+  height: 700px;
+}
+.seccionHero .columna1 {
+  margin-left: 100px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.seccionHero .titulo {
+  font-size: 100px;
+}
+.seccionHero .subtitulo {
+  font-size: 60px;
+}
+.seccionHero .parrafoInicio {
+  font-size: 20px;
+}
+
+/* Nosotros (EN EL INICIO) */
+.nosotros {
+  background-color: white;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.nosotros .nosotrosContenedor {
+  background-color: white;
+  width: 100%;
+  height: 600px;
+  font-family: "Roboto", sans-serif;
+  flex-wrap: wrap;
+}
+.nosotros .tituloDos {
+  color: blue;
+}
+.nosotros .parrafoNosotros {
+  color: dimgrey;
+}
+.nosotros .botonServicios {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #007a89;
+  transition: all 400ms ease;
+}
+.nosotros .bi {
+  font-size: 20px;
+  color: #007a89;
+}
+.nosotros .botonServicios {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #007a89;
+  transition: all 400ms ease;
+}
+.nosotros .botonServicios:hover {
+  color: white;
+  background-color: #007a89;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (max-width: 1237px) {
+  #imagenHero {
+    display: none;
+  }
+}
+@media screen and (max-width: 1548px) {
+  #imagenHero {
+    width: 600px;
+    height: 550px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
